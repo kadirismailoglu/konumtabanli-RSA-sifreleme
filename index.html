@@ -61,7 +61,7 @@
 
 <div class="container">
     <h2>📡 GÜVENLİ BÖLGE </h2>
-    <p>Bu RSA şifresi sadece ATO Congresium Kongre ve Sergi Merkezi sınırları içerisinde çözülebilir.</p>
+    <p>Bu RSA şifresi sadece ORTAHİSAR BİLİM VE SANAT MERKEZİ sınırları içerisinde çözülebilir.</p>
     
     <button class="btn-gps" onclick="gpsGetir()">📍 KONUM VERİSİNİ AL</button>
     
@@ -76,8 +76,8 @@
 <script>
     // ATO Congresium Kongre ve Sergi Merkezi ve Çevresi Tolerans Ayarı
     // Bu değerler Kongre ve Sergi Merkezi genelini kapsar.
-    const hedefEnlemBaslangic = "39.91"; 
-    const hedefBoylamBaslangic = "32.80"; 
+    const hedefEnlemBaslangic = "41.00"; 
+    const hedefBoylamBaslangic = "39.70"; 
 
     function gpsGetir() {
         var input = document.getElementById("koordinatInput");
@@ -127,7 +127,7 @@
             sonucDiv.className = "";
             
             setTimeout(function() {
-                sonucDiv.innerHTML = "✅ ŞİFRE ÇÖZÜLDÜ!<br><br>Konum: ATO Congresium Kongre ve Sergi Merkezi Güvenli Bölge<br>Mesaj: 'Matematik koordinatlarda saklıdır!'";
+                sonucDiv.innerHTML = "✅ ŞİFRE ÇÖZÜLDÜ!<br><br>Konum: ORTAHİSAR Bilim ve Sanat Merkezi Güvenli Bölge<br>Mesaj: 'Matematik koordinatlarda saklıdır!'";
                 sonucDiv.className = "success";
             }, 1500); 
         } else {
